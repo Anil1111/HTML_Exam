@@ -1,0 +1,100 @@
+body{background-color: #EAEAEA; font-family: Segoe UI;}
+
+
+/*start*/
+#stat article {width: 200px; margin: 0px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+
+#stat article header p {text-align: right; font-size: 13px; padding: 10px 10px 0px 0px; margin: 0px;}
+#stat article p {text-align: right; font-size: 25px; margin: -5px 10px 0px 0px;}
+
+#stat article header::before{
+    content: " "; width: 50px; height: 50px; display: block; position: absolute; margin: -10px 0px 0px 15px;
+    background-repeat: no-repeat; background-position: center; background-size: 60%; box-shadow: 3px 3px 2px #C2C2C2;
+}
+
+#stat article footer { margin: 10px 20px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
+#stat article footer p { padding: 0px 0px 0px 0px; text-align: left; font-size: 10px;}
+
+/*userSpace*/
+#stat article#userSpace header::before {background-image: url("img/data_white.svg"); background-color: #448B00;}
+#userSpace footer { background-image: url("img/alert.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+
+/*Reverue*/
+#stat article#Reverue header::before {background-image: url("img/shop_white.svg"); background-color: #D89E24;}
+#Reverue footer { background-image: url("img/calendar.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+
+/*FixedIssues*/
+#stat article#FixedIssues header::before {background-image: url("img/tag_white.svg"); background-color: #274D97;}
+#FixedIssues footer { background-image: url("img/down.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+
+/*Followers*/
+#stat article#Followers header::before {background-image: url("img/paperplane_white.svg"); background-color: #C32056;}
+#Followers footer { background-image: url("img/time.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+
+
+/*middle*/
+#middle article {width: 300px; height: 240px; margin: 60px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+
+#middle article header p {text-align: left; font-size: 20px; padding: 130px 0px 0px 15px; margin: 0px;}
+#middle article p {text-align: left; font-size: 15px; margin: 0px 0px 0px 15px;}
+
+#middle article header::before {
+    content: " "; width: 270px; height: 135px; display: block; position: absolute; margin: -10px 0px 0px 15px;
+    background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
+}
+
+#middle article footer { margin: 10px 15px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
+#middle article footer p { padding: 0px 0px 0px 0px; text-align: left; font-size: 10px;}
+
+/*DailySales*/
+#middle article#DailySales header::before {background-image: url("img/graphics.svg"); background-color: #448B00;}
+#DailySales footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+
+/*Email*/
+#middle article#Email header::before {background-image: url("img/graphics.svg"); background-color: #D89E24;}
+#Email footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+
+/*Tasks*/
+#middle article#Tasks header::before {background-image: url("img/graphics.svg"); background-color: #274D97;}
+#Tasks footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px){
+    #stat article{width: 200px;}
+}
+@media (min-width: 800px) and (max-width: 1000px){
+    #stat article{width: 300px;}
+}
+@media (min-width: 650px) and (max-width: 800px){
+    #stat article{width: 300px;}
+}
+@media (min-width: 500px) and (max-width: 650px){
+    #stat article{width: 200px;}
+}
+@media (max-width: 500px){
+    #stat article{width: 400px;}
+}
