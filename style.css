@@ -1,14 +1,17 @@
-body{background-color: #EAEAEA; font-family: Segoe UI;}
-
+body{; font-family: Segoe UI;}
+#main {background-color: #EAEAEA; width: 83%;}
+#menu {background-color: #F6F6F6; width: 17%; box-shadow: 5px 5px 2px #C2C2C2;}
+#site {display: inline-block; text-align: left;}
 
 /*start*/
-#stat article {width: 200px; margin: 0px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+#main header#Dashboard {margin: 25px 0px 60px 25px;}
+#stat article { margin: 0px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
 
 #stat article header p {text-align: right; font-size: 13px; padding: 10px 10px 0px 0px; margin: 0px;}
 #stat article p {text-align: right; font-size: 25px; margin: -5px 10px 0px 0px;}
 
 #stat article header::before{
-    content: " "; width: 50px; height: 50px; display: block; position: absolute; margin: -10px 0px 0px 15px;
+    content: " "; width: 50px; height: 50px; display: block; position: absolute; margin: -15px 0px 0px 15px;
     background-repeat: no-repeat; background-position: center; background-size: 60%; box-shadow: 3px 3px 2px #C2C2C2;
 }
 
@@ -39,7 +42,7 @@ body{background-color: #EAEAEA; font-family: Segoe UI;}
 #middle article p {text-align: left; font-size: 15px; margin: 0px 0px 0px 15px;}
 
 #middle article header::before {
-    content: " "; width: 270px; height: 135px; display: block; position: absolute; margin: -10px 0px 0px 15px;
+    content: " "; width: 270px; height: 135px; display: block; position: absolute; margin: -15px 0px 0px 15px;
     background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
 }
 
@@ -59,22 +62,54 @@ body{background-color: #EAEAEA; font-family: Segoe UI;}
 #Tasks footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
 
 
+/*bottom*/
+#bottom article {width: 450px; height: 240px; margin: 20px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+
+#bottom article header p {text-align: left; font-size: 15px; color: white; margin: 15px 25px 0px 10px; display: inline-block; }
+
+#bottom article header {
+    content: " "; width: 420px; height: 50px; display: block; position: absolute; margin: -15px 0px 0px 15px;
+    background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
+}
+
+#bottom article footer { margin: 10px 15px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
+#bottom article footer table { padding: 0px 0px 0px 0px; text-align: left; font-size: 12px;}
+#bottom article footer table th { color: #71B5BB;}
+#bottom article footer table img { width: 80%;}
+
+/*Tasks2*/
+#bottom article#Tasks2 header {background-color: #D89E24;}
+#bottom article header p#ht1 { background-image: url("img/bug.svg"); background-size: 30%; background-repeat: no-repeat;}
+#bottom article header p#ht2 { background-image: url("img/web.svg"); background-size: 30%; background-repeat: no-repeat;}
+#bottom article header p#ht3 { background-image: url("img/cloud.svg"); background-size: 30%; background-repeat: no-repeat;}
+
+#Tasks2 footer {padding: 50px 0px 10px 5px;}
+
+/*Employees*/
+#bottom article#Employees header {background-color: #274D97; height: 60px;}
+#Employees footer {padding: 60px 0px 10px 5px;}
+#bottom article#Employees header p {text-align: left; font-size: 15px; color: white; margin: 5px 25px 0px 10px; display: inline-block; }
 
 
+/*Menu*/
+#menu article {width: 100%;	}
+#menu article footer { margin: 10px 0px; border-top: 2px solid #E3E3E3;}
+#menu article header { margin: 25px 25px;}
 
+#menu li.Dashboard{ list-style: none; background-image: url("img/dashboard_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.UserProfile{ list-style: none; background-image: url("img/account_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Maps{ list-style: none; background-image: url("img/map_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Notifications{ list-style: none; background-image: url("img/notify_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Support{ list-style: none; background-image: url("img/support_gray.svg"); background-repeat: no-repeat; background-size: 26px; background-position: left center;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#menu li {margin: 10px -20px; width: 100%; height: 50px; padding: 12px 45px;}
+#menu li:hover {
+    background-color: #C32056;
+    color: white;
+    transition: 0.5s;
+}
+#menu li.Dashboard:hover {background-image: url("img/dashboard_white.svg");}
+#menu li.UserProfile:hover {background-image: url("img/account_white.svg");}
 
 
 
@@ -84,17 +119,23 @@ body{background-color: #EAEAEA; font-family: Segoe UI;}
 
 
 @media (min-width: 1000px){
-    #stat article{width: 200px;}
+    #stat article{width: 100%;}
 }
 @media (min-width: 800px) and (max-width: 1000px){
     #stat article{width: 300px;}
 }
 @media (min-width: 650px) and (max-width: 800px){
     #stat article{width: 300px;}
+    #menu {visibility: hidden;}
+    #main {width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px){
     #stat article{width: 200px;}
+    #menu {visibility: hidden;}
+    #main {width: 100%;}
 }
 @media (max-width: 500px){
     #stat article{width: 400px;}
+    #menu {visibility: hidden;}
+    #main {width: 100%;}
 }
