@@ -3,7 +3,7 @@ body{; font-family: Segoe UI;}
 #menu {background-color: #F6F6F6; width: 17%; box-shadow: 5px 5px 2px #C2C2C2;}
 #site {display: inline-block; text-align: left;}
 
-/*start*/
+/*-----------------------------start-----------------------------*/
 #main header#Dashboard {margin: 25px 0px 60px 25px;}
 #stat article { margin: 0px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
 
@@ -16,66 +16,66 @@ body{; font-family: Segoe UI;}
 }
 
 #stat article footer { margin: 10px 20px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
-#stat article footer p { padding: 0px 0px 0px 0px; text-align: left; font-size: 10px;}
+#stat article footer p { padding: 0px 0px 0px 5px; text-align: left; font-size: 10px;}
 
 /*userSpace*/
 #stat article#userSpace header::before {background-image: url("img/data_white.svg"); background-color: #448B00;}
-#userSpace footer { background-image: url("img/alert.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+#userSpace footer { background-image: url("img/alert.png"); background-size: 15px; padding: 15px 0px 10px 15px;}
 
 /*Reverue*/
 #stat article#Reverue header::before {background-image: url("img/shop_white.svg"); background-color: #D89E24;}
-#Reverue footer { background-image: url("img/calendar.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+#Reverue footer { background-image: url("img/calendar.png"); background-size: 15px; padding: 15px 0px 10px 15px;}
 
 /*FixedIssues*/
 #stat article#FixedIssues header::before {background-image: url("img/tag_white.svg"); background-color: #274D97;}
-#FixedIssues footer { background-image: url("img/down.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+#FixedIssues footer { background-image: url("img/down.png"); background-size: 15px; padding: 15px 0px 10px 15px;}
 
 /*Followers*/
 #stat article#Followers header::before {background-image: url("img/paperplane_white.svg"); background-color: #C32056;}
-#Followers footer { background-image: url("img/time.png"); background-size: 7%; padding: 15px 0px 10px 15px;}
+#Followers footer { background-image: url("img/time.png"); background-size: 15px; padding: 15px 0px 10px 15px;}
 
 
-/*middle*/
-#middle article {width: 300px; height: 240px; margin: 60px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+/*-----------------------------middle-----------------------------*/
+/*width: 300px; height: 240px;*/
+#middle article { margin: 50px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
 
-#middle article header p {text-align: left; font-size: 20px; padding: 130px 0px 0px 15px; margin: 0px;}
-#middle article p {text-align: left; font-size: 15px; margin: 0px 0px 0px 15px;}
+#middle article header p {text-align: left; font-size: 20px; padding: 0px 0px 0px 5%; margin: 0px;}
+#middle article p {text-align: left; font-size: 15px; margin: 0px 0px 0px 5%;}
 
 #middle article header::before {
-    content: " "; width: 270px; height: 135px; display: block; position: absolute; margin: -15px 0px 0px 15px;
-    background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
+    content: " "; width: 90%; height: 135px; display: block; margin: 0px 0px 0px 5%;
+    background-repeat: no-repeat; background-position: center; position: relative; bottom: 15px; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
 }
 
-#middle article footer { margin: 10px 15px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
+#middle article footer { margin: 10px 5%; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
 #middle article footer p { padding: 0px 0px 0px 0px; text-align: left; font-size: 10px;}
 
 /*DailySales*/
 #middle article#DailySales header::before {background-image: url("img/graphics.svg"); background-color: #448B00;}
-#DailySales footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+#DailySales footer { background-image: url("img/time.png"); background-size: 15px; padding: 10px 0px 10px 5px;}
 
 /*Email*/
 #middle article#Email header::before {background-image: url("img/graphics.svg"); background-color: #D89E24;}
-#Email footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+#Email footer { background-image: url("img/time.png"); background-size: 15px; padding: 10px 0px 10px 5px;}
 
 /*Tasks*/
 #middle article#Tasks header::before {background-image: url("img/graphics.svg"); background-color: #274D97;}
-#Tasks footer { background-image: url("img/time.png"); background-size: 5%; padding: 10px 0px 10px 5px;}
+#Tasks footer { background-image: url("img/time.png"); background-size: 15px; padding: 10px 0px 10px 5px;}
 
 
-/*bottom*/
-#bottom article {width: 450px; height: 240px; margin: 20px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
+/*-----------------------------bottom-----------------------------width: 450px;*/
+#bottom article { height: 240px; margin: 20px auto; background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2;	}
 
 #bottom article header p {text-align: left; font-size: 15px; color: white; margin: 15px 25px 0px 10px; display: inline-block; }
 
 #bottom article header {
-    content: " "; width: 420px; height: 50px; display: block; position: absolute; margin: -15px 0px 0px 15px;
+    content: " "; width: 93%; height: 50px; display: block; position: relative; bottom: 15px; margin: 0px 0px 0px 3%;
     background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
 }
 
-#bottom article footer { margin: 10px 15px; border-top: 1px solid #E3E3E3; background-position: left center; background-repeat: no-repeat;}
 #bottom article footer table { padding: 0px 0px 0px 0px; text-align: left; font-size: 12px;}
 #bottom article footer table th { color: #71B5BB;}
-#bottom article footer table img { width: 80%;}
+#bottom article footer table img { width: 26px;}
 
 /*Tasks2*/
 #bottom article#Tasks2 header {background-color: #D89E24;}
@@ -83,15 +83,15 @@ body{; font-family: Segoe UI;}
 #bottom article header p#ht2 { background-image: url("img/web.svg"); background-size: 30%; background-repeat: no-repeat;}
 #bottom article header p#ht3 { background-image: url("img/cloud.svg"); background-size: 30%; background-repeat: no-repeat;}
 
-#Tasks2 footer {padding: 50px 0px 10px 5px;}
+#Tasks2 footer {padding: 0px 0px 10px 5px;}
 
 /*Employees*/
 #bottom article#Employees header {background-color: #274D97; height: 60px;}
-#Employees footer {padding: 60px 0px 10px 5px;}
+#Employees footer {padding: 0px 0px 10px 5px;}
 #bottom article#Employees header p {text-align: left; font-size: 15px; color: white; margin: 5px 25px 0px 10px; display: inline-block; }
 
 
-/*Menu*/
+/*-----------------------------Menu-----------------------------*/
 #menu article {width: 100%;	}
 #menu article footer { margin: 10px 0px; border-top: 2px solid #E3E3E3;}
 #menu article header { margin: 25px 25px;}
@@ -122,15 +122,17 @@ body{; font-family: Segoe UI;}
     #stat article{width: 100%;}
 }
 @media (min-width: 800px) and (max-width: 1000px){
-    #stat article{width: 300px;}
+    #stat article{margin-bottom: 40px;}
+    #middle article{ margin-top: 10px;}
 }
 @media (min-width: 650px) and (max-width: 800px){
-    #stat article{width: 300px;}
+    #stat article{margin-bottom: 40px;}
+    #middle article{ margin-top: 10px;}
     #menu {visibility: hidden;}
     #main {width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px){
-    #stat article{width: 200px;}
+    #stat article{ margin-bottom: 40px;}
     #menu {visibility: hidden;}
     #main {width: 100%;}
 }
