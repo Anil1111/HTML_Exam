@@ -1,0 +1,89 @@
+body{; font-family: Segoe UI;}
+#main {background-color: #EAEAEA; display: block; float: left; width: 85%;}
+#menu {background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2; width: 15%; display: block; float: left;}
+/*#site {display: inline-block; text-align: left;}
+
+
+/*-----------------------------Menu-----------------------------*/
+#menu article {width: 100%;	}
+#menu article footer { margin: 10px 0px; border-top: 2px solid #E3E3E3;}
+#menu article header { margin: 25px 25px;}
+
+#menu li.Dashboard{ list-style: none; background-image: url("img/dashboard_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.UserProfile{ list-style: none; background-image: url("img/account_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Maps{ list-style: none; background-image: url("img/map_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Notifications{ list-style: none; background-image: url("img/notify_gray.svg"); background-repeat: no-repeat; background-size: 26px;  background-position: left center;}
+#menu li.Support{ list-style: none; background-image: url("img/support_gray.svg"); background-repeat: no-repeat; background-size: 26px; background-position: left center;}
+
+#menu li {margin: 10px -20px; width: 100%; height: 50px; padding: 12px 45px;}
+#menu li:hover {
+    background-color: #C32056;
+    color: white;
+    transition: 0.4s;
+}
+#menu li.Dashboard:hover {background-image: url("img/dashboard_white.svg");}
+#menu li.UserProfile:hover {background-image: url("img/account_white.svg");}
+#menu a.ref {color: black; text-decoration: none;}
+
+/*-----------------------------Main-----------------------------*/
+/*#main form {margin-left: 40px;}*/
+#main header#UProfile {margin: 25px 0px 60px 25px;}
+#main article { background-color: #F5F5F5;box-shadow: 3px 3px 2px #C2C2C2; }
+#form form label{display: block;  margin: 10px auto; padding: 0px 5px;}
+#form form input {display: block; border-left: none; border-right: none; border-top: none; border-color: #C7C7C7; background-color: #F5F5F5; margin: 10px auto; border-width: 1px; width: 100%;}
+#form form textarea {display: block; border-left: none; border-right: none; border-top: none; border-color: #C7C7C7; background-color: #F5F5F5; margin: 10px auto; border-width: 1px; width: 100%;}
+#main article#form form input:focus{border-left: none; border-right: none; border-top: none; border-color: #C7C7C7; background-color: #F5F5F5; border-width: 0px;}
+
+#main article#form header p {text-align: left; font-size: 15px; color: white; margin: 0px 25px 0px 10px; padding: 10px 0px 0px 10px;}
+#main article#form header {background-color: #BD194B; height: 80px;
+    content: " "; width: 93%; display: block; position: relative; bottom: 15px; margin: 0px 0px 0px 3%;
+    background-repeat: no-repeat; background-position: center; background-size: 85%; box-shadow: 3px 3px 2px #C2C2C2;
+}
+#main article#form button { display: block; float: right; background-color: #BD194B; margin: 20px; padding: 5px 60px; color: white; outline: none;  }
+
+#form form div.formRow1 { width: 100%; padding: 0px 10px}
+#form form div.formRow2 { width: 50%; padding: 0px 10px;}
+#form form div.formRow3 { width: 33.3%; padding: 0px 10px;}
+
+
+#aboutMe header {height: 150px; width: 150px; content: " "; display: block; position: relative; bottom: 25px; margin: auto;
+    background-repeat: no-repeat; background-position: center; background-size: 100%; background-image: url("img/avatar.png");
+}
+#aboutMe p { text-align: center; padding: 0px 20px;}
+
+
+
+
+
+/*-----------------------------Footer-----------------------------*/
+#footer { margin: 30px 0px; border-top: 2px solid #6E1237; }
+#footer p { margin: 20px 10px 0px 10px; text-align: left; display: inline-block;}
+#footer a {color: black; text-decoration: none; transition: 0.4s;}
+#footer a:hover {font-weight: bold;}
+#footer p.right { float: right; }
+
+
+
+@media (min-width: 1000px){
+    #stat article{width: 100%;}
+}
+@media (min-width: 800px) and (max-width: 1000px){
+    #stat article{margin-bottom: 40px;}
+    #middle article{ margin-top: 10px;}
+}
+@media (min-width: 650px) and (max-width: 800px){
+    #stat article{margin-bottom: 40px;}
+    #middle article{ margin-top: 10px;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #main {width: 100%;}
+}
+@media (min-width: 500px) and (max-width: 650px){
+    #stat article{ margin-bottom: 40px;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #main {width: 100%;}
+}
+@media (max-width: 500px){
+    #stat article{width: 400px;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #main {width: 100%;}
+}

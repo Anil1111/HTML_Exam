@@ -1,7 +1,7 @@
 body{; font-family: Segoe UI;}
-#main {background-color: #EAEAEA; width: 83%;}
-#menu {background-color: #F6F6F6; width: 17%; box-shadow: 5px 5px 2px #C2C2C2;}
-#site {display: inline-block; text-align: left;}
+#main {background-color: #EAEAEA; display: block; float: left; width: 85%;}
+#menu {background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2; width: 15%; display: block; float: left;}
+/*#site {display: inline-block; text-align: left;}
 
 /*-----------------------------start-----------------------------*/
 #main header#Dashboard {margin: 25px 0px 60px 25px;}
@@ -106,15 +106,18 @@ body{; font-family: Segoe UI;}
 #menu li:hover {
     background-color: #C32056;
     color: white;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 #menu li.Dashboard:hover {background-image: url("img/dashboard_white.svg");}
 #menu li.UserProfile:hover {background-image: url("img/account_white.svg");}
+#menu a.ref {color: black; text-decoration: none;}
 
-
-
-
-
+/*-----------------------------Footer-----------------------------*/
+#footer { margin: 30px 0px; border-top: 2px solid #6E1237; }
+#footer p { margin: 20px 10px 0px 10px; text-align: left; display: inline-block;}
+#footer a {color: black; text-decoration: none; transition: 0.4s;}
+#footer a:hover {font-weight: bold;}
+#footer p.right { float: right; }
 
 
 
@@ -128,16 +131,16 @@ body{; font-family: Segoe UI;}
 @media (min-width: 650px) and (max-width: 800px){
     #stat article{margin-bottom: 40px;}
     #middle article{ margin-top: 10px;}
-    #menu {visibility: hidden;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
     #main {width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px){
     #stat article{ margin-bottom: 40px;}
-    #menu {visibility: hidden;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
     #main {width: 100%;}
 }
 @media (max-width: 500px){
     #stat article{width: 400px;}
-    #menu {visibility: hidden;}
+    #menu {visibility: hidden; width: 0px; height: 0px;}
     #main {width: 100%;}
 }
