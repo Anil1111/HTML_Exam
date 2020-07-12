@@ -8,10 +8,9 @@
 </head>
 <body>
 <section class="container-fluid" id="site">
-    <div class="col">
     <div class="row">
 
-        <section class="container-fluid" id="menu">
+        <section class="container-fluid" id="menu" style="height: 100vh">
             <div class="row">
                 <article>
                     <header class="container-fluid">
@@ -30,72 +29,72 @@
             </div>
         </section>
 
-        <main class="container-fluid" id="main">
-
-
-            <header id="UProfile">
-                <h4> User Profile </h4>
-            </header>
-            <section class="row" id="Sm">
-                <div class="col-lg-9 col-md-6 col-12">
-                    <article id="form" class="clearfix">
-                        <header>
-                            <p> Edit Profile </p>
-                            <p> Complete your profile </p>
-                        </header>
-                        <footer>
-                            <form>
-                                <div class="row" style="width: 100%; margin: 0px;">
-                                    <div class="formRow3"><label>Company <input type="text" id="Company"></label></div>
-                                    <div class="formRow3"><label>Username <input type="text" id="Username"></label></div>
-                                    <div class="formRow3"><label>Email address <input type="text" id="EmailAddress"></label></div>
-                                </div>
-                                <div class="row" style="width: 100%; margin: 0px;">
-                                    <div class="formRow2"><label>First Name <input type="text" id="Fname"></label></div>
-                                    <div class="formRow2"><label>Last Name <input type="text" id="Lname"></label></div>
-                                </div>
-                                <div class="row" style="width: 100%; margin: 0px;">
-                                    <div class="formRow1"><label>Address <input type="text" id="Address"></label></div>
-                                </div>
-                                <div class="row" style="width: 100%; margin: 0px;">
-                                    <div class="formRow3"><label>City <input type="text" id="City"></label></div>
-                                    <div class="formRow3"><label>Country <input type="text" id="Country"></label></div>
-                                    <div class="formRow3"><label>Postal code <input type="text" id="Pcode"></label></div>
-                                </div>
+        <main class="container-fluid" id="main"  style="height: 100vh; display: flex; flex-direction: column; min-height: 100%;">
+            <div style="flex: 1 0 auto;">
+                <header id="UProfile">
+                    <h4> User Profile </h4>
+                </header>
+                <section class="row" id="Sm">
+                    <div class="col-lg-9 col-md-6 col-12">
+                        <article id="form" class="clearfix">
+                            <header>
+                                <p> Edit Profile </p>
+                                <p> Complete your profile </p>
+                            </header>
+                            <footer>
+                                <form>
                                     <div class="row" style="width: 100%; margin: 0px;">
-                                        <div class="formRow1"><label>About Me <textarea name="comment" cols="1" rows="1" id="About"></textarea></label></div>
-                                </div>
-                                <button>Update Profile</button>
-                            </form>
-                        </footer>
-                    </article>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <article id="aboutMe" class="clearfix">
-                        <header>
-                        </header>
-                        <footer>
-                            <p>CEO / CO-FOUNDER</p>
-                            <p style="font-weight: bold;">Alec Thompson</p>
-                            <p>Don't be scared of the truth because we need
-                                to restart the human foundation in truth And I
-                                love you like Kanye loves Kanye I love Rick
-                                Owens' bed design but the back is...
-                            </p>
-                       </footer>
-                    </article>
-                </div>
-            </section>
-            <footer  id="footer">
-                <p ><a href="#">ABOUT</a></p>
-                <p ><a href="#">BLOG</a></p>
-                <p ><a href="#">LICENSES</a></p>
+                                        <div class="formRow3"><label>Company <input type="text" id="Company"></label></div>
+                                        <div class="formRow3"><label>Username <input type="text" id="Username"></label></div>
+                                        <div class="formRow3"><label>Email address <input type="text" id="EmailAddress"></label></div>
+                                    </div>
+                                    <div class="row" style="width: 100%; margin: 0px;">
+                                        <div class="formRow2"><label>First Name <input type="text" id="Fname"></label></div>
+                                        <div class="formRow2"><label>Last Name <input type="text" id="Lname"></label></div>
+                                    </div>
+                                    <div class="row" style="width: 100%; margin: 0px;">
+                                        <div class="formRow1"><label>Address <input type="text" id="Address"></label></div>
+                                    </div>
+                                    <div class="row" style="width: 100%; margin: 0px;">
+                                        <div class="formRow3"><label>City <input type="text" id="City"></label></div>
+                                        <div class="formRow3"><label>Country <input type="text" id="Country"></label></div>
+                                        <div class="formRow3"><label>Postal code <input type="text" id="Pcode"></label></div>
+                                    </div>
+                                        <div class="row" style="width: 100%; margin: 0px;">
+                                            <div class="formRow1"><label>About Me <textarea name="comment" cols="1" rows="1" id="About"></textarea></label></div>
+                                    </div>
+                                    <button>Update Profile</button>
+                                </form>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <article id="aboutMe" class="clearfix">
+                            <header>
+                            </header>
+                            <footer>
+                                <p>CEO / CO-FOUNDER</p>
+                                <p style="font-weight: bold;">Alec Thompson</p>
+                                <p>Don't be scared of the truth because we need
+                                    to restart the human foundation in truth And I
+                                    love you like Kanye loves Kanye I love Rick
+                                    Owens' bed design but the back is...
+                                </p>
+                           </footer>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <div style="flex: 0 0 auto;">
+                <footer  id="footer">
+                    <p ><a href="#">ABOUT</a></p>
+                    <p ><a href="#">BLOG</a></p>
+                    <p ><a href="#">LICENSES</a></p>
 
-                <p class="right">2020 - made by me</p>
-            </footer>
-
+                    <p class="right">2020 - made by me</p>
+                </footer>
+            </div>
         </main>
-    </div>
     </div>
 </section>
 

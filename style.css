@@ -1,6 +1,6 @@
 body{; font-family: Segoe UI;}
 #main {background-color: #EAEAEA; display: block; float: left; width: 85%;}
-#menu {background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2; width: 15%; display: block; float: left;}
+#menu {background-color: #F6F6F6; width: 15%; display: block; float: left; border-right: 3px solid gray;}
 /*#site {display: inline-block; text-align: left;}
 
 /*-----------------------------start-----------------------------*/
@@ -88,7 +88,7 @@ body{; font-family: Segoe UI;}
 /*Employees*/
 #bottom article#Employees header {background-color: #274D97; height: 60px;}
 #Employees footer {padding: 0px 0px 10px 5px;}
-#bottom article#Employees header p {text-align: left; font-size: 15px; color: white; margin: 5px 25px 0px 10px; display: inline-block; }
+#bottom article#Employees header p {text-align: left; font-size: 15px; color: white; margin: 5px 25px 0px 10px; display: block; }
 
 
 /*-----------------------------Menu-----------------------------*/
@@ -113,10 +113,10 @@ body{; font-family: Segoe UI;}
 #menu a.ref {color: black; text-decoration: none;}
 
 /*-----------------------------Footer-----------------------------*/
-#footer { margin: 30px 0px; border-top: 2px solid #6E1237; }
+#footer { margin: 30px 0px; border-top: 2px solid gray;}
 #footer p { margin: 20px 10px 0px 10px; text-align: left; display: inline-block;}
 #footer a {color: black; text-decoration: none; transition: 0.4s;}
-#footer a:hover {font-weight: bold;}
+#footer footer a:hover {font-weight: bold;}
 #footer p.right { float: right; }
 
 
@@ -131,16 +131,16 @@ body{; font-family: Segoe UI;}
 @media (min-width: 650px) and (max-width: 800px){
     #stat article{margin-bottom: 40px;}
     #middle article{ margin-top: 10px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px){
     #stat article{ margin-bottom: 40px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }
 @media (max-width: 500px){
     #stat article{width: 400px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }

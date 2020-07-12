@@ -1,6 +1,6 @@
 body{; font-family: Segoe UI;}
 #main {background-color: #EAEAEA; display: block; float: left; width: 85%;}
-#menu {background-color: #F6F6F6; box-shadow: 5px 5px 2px #C2C2C2; width: 15%; display: block; float: left;}
+#menu {background-color: #F6F6F6; width: 15%; display: block; float: left; border-right: 3px solid gray;}
 /*#site {display: inline-block; text-align: left;}
 
 
@@ -74,16 +74,16 @@ body{; font-family: Segoe UI;}
 @media (min-width: 650px) and (max-width: 800px){
     #stat article{margin-bottom: 40px;}
     #middle article{ margin-top: 10px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }
 @media (min-width: 500px) and (max-width: 650px){
     #stat article{ margin-bottom: 40px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }
 @media (max-width: 500px){
     #stat article{width: 400px;}
-    #menu {visibility: hidden; width: 0px; height: 0px;}
+    #menu {display: none;}
     #main {width: 100%;}
 }
