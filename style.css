@@ -84,11 +84,16 @@ body{; font-family: Segoe UI;}
 #bottom article header p#ht3 { background-image: url("img/cloud.svg"); background-size: 30%; background-repeat: no-repeat;}
 
 #Tasks2 footer {padding: 0px 0px 10px 5px;}
-
 /*Employees*/
 #bottom article#Employees header {background-color: #274D97; height: 60px;}
 #Employees footer {padding: 0px 0px 10px 5px;}
 #bottom article#Employees header p {text-align: left; font-size: 15px; color: white; margin: 5px 25px 0px 10px; display: block; }
+
+
+#bottom article#Tasks2 ul li {text-align: left; font-size: 15px; color: white; margin: 15px 25px 0px 10px; display: inline-block; }
+#bottom article#Tasks2 ul li#ht1 { background-image: url("img/bug.svg"); background-size: 20px; background-repeat: no-repeat;padding: 0px 25px;}
+#bottom article#Tasks2 ul li#ht2 { background-image: url("img/web.svg"); background-size: 20px; background-repeat: no-repeat;padding: 0px 25px;}
+#bottom article#Tasks2 ul li#ht3 { background-image: url("img/cloud.svg"); background-size: 20px; background-repeat: no-repeat;padding: 0px 25px;}
 
 
 /*-----------------------------Menu-----------------------------*/
